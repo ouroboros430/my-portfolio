@@ -1,6 +1,8 @@
 {
   "welcome": "Welcome to my personal website",
-  "aboutMe": "About Me",
-  "projects": "Projects",
-  "contact": "Contact"
+  "introductionText": "I am a front-end developer who loves building beautiful and efficient user interfaces.",
+  "header.home": "Home",
+  "header.about": "About Me",
+  "header.projects": "Projects",
+  "header.contact": "Contact Me"
 }

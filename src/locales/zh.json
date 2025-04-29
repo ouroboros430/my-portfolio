@@ -1,6 +1,8 @@
 {
-  "welcome": "欢迎来到我的个人网站",
-  "aboutMe": "关于我",
-  "projects": "项目展示",
-  "contact": "联系我"
+  "welcome": "欢迎访问我的个人网站",
+  "introductionText": "我是一个热爱构建美观高效用户界面的前端开发人员。",
+  "header.home": "主页",
+  "header.about": "关于我",
+  "header.projects": "项目",
+  "header.contact": "联系我"
 }

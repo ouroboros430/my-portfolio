@@ -7,22 +7,22 @@ import { useIntl, FormattedMessage } from 'react-intl';
 
 const items = [
   {
-    label: <Link to="/">主页</Link>,
+    label: <Link to="/"><FormattedMessage id="header.home" defaultMessage="主页" /></Link>,
     key: 'home',
     icon: <HomeOutlined />,
   },
   {
-    label: <Link to="/about">关于我</Link>,
+    label: <Link to="/about"><FormattedMessage id="header.about" defaultMessage="关于我" /></Link>,
     key: 'about',
     icon: <IdcardOutlined />,
   },
   {
-    label: <Link to="/projects">项目</Link>,
+    label: <Link to="/projects"><FormattedMessage id="header.projects" defaultMessage="项目" /></Link>,
     key: 'projects',
     icon: <ProjectOutlined />,
   },
   {
-    label: <Link to="/contact">联系我</Link>,
+    label: <Link to="/contact"><FormattedMessage id="header.contact" defaultMessage="联系我" /></Link>,
     key: 'contact',
     icon: <MailOutlined />,
   },
