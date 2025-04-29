@@ -5,7 +5,7 @@ import { Typography } from 'antd';
 const Footer = () => {
   return (
     <footer style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f0f0f0', marginTop: '40px' }}>
-      <Typography.Text>© 2025 你的名字 · All Rights Reserved.</Typography.Text>
+      <Typography.Texit>© 2025 HU JIAMING · All Rights Reserved.</Typography.Text>
     </footer>
   );
 };
