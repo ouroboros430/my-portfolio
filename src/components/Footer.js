@@ -1,11 +1,12 @@
 // src/components/Footer.js
 import React from 'react';
 import { Typography } from 'antd';
+import { FormattedMessage } from 'react-intl';
 
 const Footer = () => {
   return (
     <footer style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f0f0f0', marginTop: '40px' }}>
-      <Typography.Text>© 2025 HU JIAMING · All Rights Reserved.</Typography.Text>
+       <p><FormattedMessage id="footer.text" defaultMessage="版权所有 © 我的个人网站" /></p>
     </footer>
   );
 };

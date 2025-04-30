@@ -3,7 +3,7 @@ import React from 'react';
 import { Menu, Button } from 'antd';
 import { Link } from 'react-router-dom';
 import { HomeOutlined, IdcardOutlined, ProjectOutlined, MailOutlined } from '@ant-design/icons';
-import { useIntl, FormattedMessage } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 const items = [
   {
